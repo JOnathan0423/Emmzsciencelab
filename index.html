@@ -1,0 +1,209 @@
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Программчлал ашиглан шинжлэх ухааны туршилтуудыг судалж үзэхийг хүсвэл доошоо гүйлгээрэй.">
+    <meta property="og:title" content="mnumsvisuallab.com - Visual Programming for Science Experiments">
+    <meta property="og:description" content="Программчлал ашиглан шинжлэх ухааны туршилтуудыг сурах, үзүүлэх интерактив платформ.">
+    <meta property="og:image" content="URL_to_image_for_og_image">
+    <meta name="robots" content="index, follow">
+    <title>mnumsvisuallab.com - Visual Programming for Science Experiments</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            background-image: url('https://assets.onecompiler.app/42ypgxm44/42yuj54c8/virolog-coducting-experiment-course-coronavirus-pandemic-with-micropipette-chemist-modern-laboratory-doing-research-using-dispenser-global-epidemic-with-covid-19_482257-5737.avif');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Dark overlay to improve text clarity */
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6); /* Darker overlay */
+            z-index: -1; /* Ensure the overlay stays behind the text */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for paragraph text */
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 1100px;
+        }
+
+        h2 {
+            color: #ADD8E6;
+            font-size: 1.8rem;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .simulation-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .simulation-links li {
+            background: #f7f7f7;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .simulation-links li:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .simulation-links a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #28a745;
+        }
+
+        .simulation-links a:hover {
+            text-decoration: underline;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #FF6347;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #e55347;
+        }
+
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #ADD8E6;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header {
+                font-size: 1.2em;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Эрүүл мэндийн мэдээлэл зүйн цахим лаборатори-д тавтай морилно уу</h1>
+    <p>Программчлал ашиглан шинжлэх ухааны туршилтуудыг судалж үзэхийг хүсвэл доошоо гүйлгээрэй.</p>
+</header>
+
+<!-- Electronic Devices & Programs Section -->
+<section id="electronics">
+    <h2>Электрон төхөөрөмжүүд ба Программууд</h2>
+    <p>Энд та электроникийн төхөөрөмжүүд болон программуудын симуляцийн линкүүдийг олж болно:</p>
+    <ul class="simulation-links">
+        <li><a href="https://jonathan0423.github.io/digital-oscilloscope/" target="_blank" rel="noopener noreferrer">Дижитал Осциллоскоп</a></li>
+        <li><a href="https://jonathan0423.github.io/sweep-generator/" target="_blank" rel="noopener noreferrer">Симуляци 4: Sweep Generator Model Fg-1883</a></li>
+        <!-- New Link Added -->
+        <li><a href="https://jonathan0423.github.io/ED-FC-1130B-universal/" target="_blank" rel="noopener noreferrer">Симуляци 5: ED-FC-1130B Universal</a></li>
+        <!-- New Link Added for Electronic Circuit Board -->
+        <li><a href="https://jonathan0423.github.io/electronic-circuit-board/" target="_blank" rel="noopener noreferrer">Симуляци 6: Электрон хэлхээ</a></li>
+    </ul>
+</section>
+
+<!-- Physics Simulations Section -->
+<section id="physics">
+    <h2>Физикийн Симуляци ба Туршилтууд</h2>
+    <p>Энэхүү хэсэгт физикийн олон төрлийн симуляци болон туршилтуудыг танилцуулах болно. Эдгээр нь физикийн онол болон туршилтыг интерактив байдлаар судлах боломжийг олгоно.</p>
+    <ul class="simulation-links">
+        <li><a href="https://jonathan0423.github.io/turshilt2-zassan/" target="_blank" rel="noopener noreferrer">Симуляци 2: Туршилт 2 - Зассан</a></li>
+        <li><a href="https://jonathan0423.github.io/pendulumsimulationzassan2/" target="_blank" rel="noopener noreferrer">Симуляци 3: Пендулум Симуляци Зассан 2</a></li>
+        <!-- New Link Added -->
+        <li><a href="https://jonathan0423.github.io/turshilt-3/" target="_blank" rel="noopener noreferrer">Симуляци 4: Туршилт 3 (Шинэ)</a></li>
+        <!-- New Link Added for Simulation 5 -->
+        <li><a href="https://jonathan0423.github.io/simulation-5-refraction/" target="_blank" rel="noopener noreferrer">Симуляци 5: Рэфракц (Шинэ)</a></li>
+        <!-- New Link Added -->
+        <li><a href="https://jonathan0423.github.io/dadlage-14/" target="_blank" rel="noopener noreferrer">Симуляци 6: Dadlaga 14</a></li>
+        <!-- New Link Added -->
+        <li><a href="https://jonathan0423.github.io/delhiinsoronzonoron/" target="_blank" rel="noopener noreferrer">Симуляци 7: Дэлхийн Соронзон Орны Судалгаа</a></li>
+        <!-- New Link -->
+        <li><a href="https://jonathan0423.github.io/togtmol-guidliin-gvvr/" target="_blank" rel="noopener noreferrer">Симуляци 8: Тогтмол Гүйдлийн Гүүр</a></li>
+    </ul>
+</section>
+
+<!-- Biophysics Section -->
+<section id="biophysics">
+    <h2>Биофизикс</h2>
+    <ul class="simulation-links">
+        <li><a href="https://mnumusvisuallab-48177013.hubspotpagebuilder.com/mn/en-gb/" target="_blank" rel="noopener noreferrer">Эсийн мембран потенциал</a></li>
+    </ul>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 mnumsvisuallab.com | Designed with care for educational purposes</p>
+    <p><a href="https://twitter.com/mnumsvisuallab" target="_blank" rel="noopener noreferrer">Follow us on Twitter</a></p>
+</footer>
+
+</body>
+</html>
